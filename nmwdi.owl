@@ -1,0 +1,64 @@
+[ {
+  "@id" : "https://cv.newmexicowaterdata.org/wdi_ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://cv.newmexicowaterdata.org/wdi_ontology/0.0.1"
+  } ]
+}, {
+  "@id" : "https://cv.newmexicowaterdata.org/wdi_ontology#Ca",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://cv.newmexicowaterdata.org/wdi_ontology#water_quality" ]
+}, {
+  "@id" : "https://cv.newmexicowaterdata.org/wdi_ontology#TDS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://cv.newmexicowaterdata.org/wdi_ontology#water_quality" ]
+}, {
+  "@id" : "https://cv.newmexicowaterdata.org/wdi_ontology#datastreams",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://cv.newmexicowaterdata.org/wdi_ontology#depth_to_water",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://cv.newmexicowaterdata.org/wdi_ontology#water_quantity" ]
+}, {
+  "@id" : "https://cv.newmexicowaterdata.org/wdi_ontology#foot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://cv.newmexicowaterdata.org/wdi_ontology#units" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://qudt.org/vocab/unit/FT"
+  } ]
+}, {
+  "@id" : "https://cv.newmexicowaterdata.org/wdi_ontology#gallon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://cv.newmexicowaterdata.org/wdi_ontology#units" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://qudt.org/vocab/unit/GAL_US"
+  } ]
+}, {
+  "@id" : "https://cv.newmexicowaterdata.org/wdi_ontology#head",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://cv.newmexicowaterdata.org/wdi_ontology#observed_properties" ]
+}, {
+  "@id" : "https://cv.newmexicowaterdata.org/wdi_ontology#observed_properties",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://cv.newmexicowaterdata.org/wdi_ontology#ppm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://cv.newmexicowaterdata.org/wdi_ontology#units" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.qudt.org/vocab/unit/PPM"
+  } ]
+}, {
+  "@id" : "https://cv.newmexicowaterdata.org/wdi_ontology#temperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://cv.newmexicowaterdata.org/wdi_ontology#observed_properties" ]
+}, {
+  "@id" : "https://cv.newmexicowaterdata.org/wdi_ontology#units",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://cv.newmexicowaterdata.org/wdi_ontology#water_quality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cv.newmexicowaterdata.org/wdi_ontology#datastreams"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://cv.newmexicowaterdata.org/wdi_ontology#water_quantity"
+  } ]
+}, {
+  "@id" : "https://cv.newmexicowaterdata.org/wdi_ontology#water_quantity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://cv.newmexicowaterdata.org/wdi_ontology#datastreams"
+  } ]
+} ]
